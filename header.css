@@ -1,0 +1,167 @@
+/*header*/
+* {
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: rgba(16, 24, 32, 255);
+  }
+  
+  .header {
+    /* margin-top: -10px; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(16, 24, 32, 255);
+  }
+  
+  .logo {
+    display: block;
+    /* margin-left: -10px; */
+    margin-right: auto;
+    width: auto;
+    /* margin-top: -9.5px; */
+    width: 160px;
+    height: 100px;
+  }
+  
+  /* hr#line2 {
+      border: 1px solid black;
+      margin-top: 0px;
+      margin-left: -10px;
+  } */
+  
+  .icon-bar {
+    width: 101%;
+    height: 30px;
+    background-color: #313131;
+    overflow: hidden;
+    margin-left: -10px;
+    margin-top: 0px;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    /* text-decoration: none; */
+    margin-left: -8px;
+    margin-top: -9px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #6e6e6e;
+    color: #000000;
+  }
+  
+  .active {
+    background-color: #a90b0b;
+  }
+  
+  #activeuser {
+    color: #a90b0b;
+  }
+  
+  /* hr#line3 {
+      border: 1px solid black;
+      margin-top: 0px;
+      margin-left: -10px;
+  } */
+  
+  .button {
+    padding: 16px 32px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    position: absolute;
+  }
+  
+  .button1 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #313131;
+    margin-left: 75%;
+  }
+  
+  .button1:hover {
+    background-color: #5878c8;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #313131;
+    margin-left: 83%;
+  }
+  
+  .button2:hover {
+    background-color: #cd1818;
+    color: white;
+  }
+  .button3 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #313131;
+    margin-left: 83%;
+  }
+  
+  .button3:hover {
+    background-color: #30a90b;
+    color: white;
+  }
+  
+  .user {
+    margin-left: 94%;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 240%;
+    position: absolute;
+  }
+  
+  a:hover {
+    color: #5b5858;
+  }
+  
+  a {
+    color: #ffffff;
+    transition-duration: 0.4s;
+  }
+  
+  .searchinput[type="text"],
+  .ser[type="submit"] {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 50vw;
+    color: rgb(255, 255, 255);
+  }
+  
+  .searchinput[type="text"] {
+    padding: 8px;
+    border: 1px solid #292727;
+    border-radius: 6px;
+    width: 700px;
+    background-color: #313131;
+    width: 150px;
+    margin-left: 40%;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 12px;
+    background-color: #313131;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+ 
+  }
+

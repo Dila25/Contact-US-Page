@@ -1,0 +1,20 @@
+.bottomsection {
+    height: 100px;
+    background-color: none;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* text-decoration: none; */
+  }
+  
+  .details {
+    line-height: 0%;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    /* text-decoration: none; */
+  }
